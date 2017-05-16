@@ -1,0 +1,3 @@
+s3_bucket = 'atlaslabsllc'
+redis_host = 'redis1.atlaslabs.org'
+dynamo_table = 'kev-perf-test'
