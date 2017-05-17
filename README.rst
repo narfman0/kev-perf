@@ -1,12 +1,17 @@
 kev-perf
-======================
+========
 
 Measure performance of certain kev uses
 
 Usage
 -----
 
-WIP building out to become useful :) Check back later!
+Create dynamodb table with primary key: `index` as a number
+and a new index "name" with indexed name "name-index".
+
+Update settings in `settings.py` then run script with::
+
+    python kev_perf/testing.py
 
 License
 -------

@@ -1,10 +1,11 @@
 import time
 
-from .models import TestDocument
+from kev_perf.models import TestDocument
 
 
 def execute_test():
-    test1 = TestDocument(name='kev', content='yo content')
+    test1 = TestDocument(name='kev')
+    test1.content = 'yo content'
     test1.save()
     start = time.time()
     TestDocument.objects().filter({'name': 'kev'})
